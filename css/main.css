@@ -1,0 +1,178 @@
+
+
+
+main{
+
+  margin: 0 auto;
+  
+
+}
+.generator, .sidebar, .comments{
+
+
+border-radius: 2px;
+box-sizing: border-box;
+
+background-image: url('../img/pbg.png');
+background-position: center;
+background-size: cover;
+}
+
+.generator, .sidebar{min-height: 350px;color: #ffffff;margin-bottom: 30px;}
+
+
+
+
+
+
+
+.sidebar{
+    
+    padding: 40px 25px 0;
+    position: relative;
+    max-height: 400px;
+}
+
+@media all and (max-width: 1020px){
+  .sidebar{
+    width: 33%;
+  }
+}
+
+
+@media all and (max-width: 780px){
+  .sidebar, .generator{
+    width: 100%;
+  }
+}
+
+.generator-wrapper{
+  width: 95%;
+  margin: 0 auto;
+  min-height: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.recent-activity-box{
+  width: 100%;
+  margin:5px auto;
+  background-color: rgba(3, 169, 244, 0.4);
+  height: 309px;
+  overflow-y: hidden;
+  padding:10px;
+  border-radius:3%;
+}
+
+.recent-icon-spin{
+  display: inline-block;
+  transform-origin: 50% 50%;
+  color:#757575;
+  font-size:0.9em;
+  animation: rotate 3s linear infinite;
+ease-in-out infinite;
+}
+
+
+.recent-title{
+  display: block;
+  font-size: 1.4em;
+  color:#03A9F4;;
+}
+
+.server-stats{
+  font-size:.8em;
+  color:#777777;
+}
+
+.recent-activity-card{
+  background-color: rgb(17, 93, 78);
+  padding:2px 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.recent-activity-card:hover{
+  background-color: rgba(255,255,255,.2);
+}
+
+.recent-activity-card header{
+  margin-bottom: 5px;
+  color:white;
+}
+
+.recent-activity-card header .r-username{
+  font-size:12px;
+}
+
+
+.resource{
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.resource img{
+  height: 18px;
+}
+
+
+.resource:nth-of-type(1){
+  color:#8bff04;
+}
+.resource:nth-of-type(2){
+  color:#00bcd4;
+}
+.resource:nth-of-type(3){
+  color:#ffeb3b;
+}
+.resource:nth-of-type(4){
+  color:#FF5722;
+}
+
+.label-default {
+    background-color: #777575;
+    display: inline-block;
+    font-size: 10px;
+    transform: translateY(-2px);
+    margin-left: 5px;
+
+ }
+
+
+ .icon-dot{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color:white;
+  border-radius: 50%;
+ }
+ .icon-dot.red{
+  background-color: #ff5e00;
+ }
+.icon-dot.green{
+  background-color: #00ff00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
